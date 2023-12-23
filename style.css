@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+}
+body {
+  background-color: rgb(186, 236, 254);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+.logo{
+    width: 70px;
+    position: relative;
+    right: 15px;
+}
+.first h2{
+    padding-block: 20px;
+    font-size: 35px;
+}
+.first p {
+  width: 400px;
+  color: #636363;
+  font-size: 15px;
+  line-height: 35px;
+}
+form {
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-weight: 700;
+}
+
+.input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #cdc7c7;
+  width: 180px;
+  outline: none;
+}
+.input:focus {
+  border: 2px solid turquoise;
+}
+.select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #cdc7c7;
+  width: 200px;
+}
+.select:focus {
+  border: 2px solid turquoise;
+}
+select:focus {
+  border: 2px solid turquoise;
+}
+.activity label {
+  font-weight: 700;
+}
+.activity select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #cdc7c7;
+}
+.activity select:focus{
+    border: 2px solid turquoise;
+}
+.password label {
+  font-weight: 700;
+}
+.password input {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin-top: 10px;
+  outline: none;
+}
+.password input:focus{
+    border: 2px solid turquoise;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    background-color: turquoise;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.bottom{
+    font-size: 14px;
+    text-align: center;
+    padding: 17px;
+}
+.bottom a{
+    color: turquoise;
+}
+
+@media screen and (max-width: 930px) {
+
+    .container{
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .logo{
+        width: 60px;
+    }
+    .first h2{
+        font-size: 20px;
+        padding-block: 7px;
+    }
+    .first p{
+        width: 100%;
+    }
+    form{
+        width: 90%;
+    }
+    .first h2{
+        padding-block: 20px;
+        font-size: 35px;
+    }
+    .first p {
+      width: 100%;
+      color: #636363;
+      font-size: 15px;
+      line-height: 30px;
+    }
+    form {
+      width: 100%;
+      background-color: white;
+      padding: 20px;
+    }
+    .line {
+        flex-direction: column;
+      /* justify-content: space-between; */
+    }
+    .name {
+      font-weight: 700;
+    }
+    
+    .input {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 5px;
+      border: 2px solid #cdc7c7;
+      width: 90%;
+      outline: none;
+    }
+    .input:focus {
+      border: 2px solid turquoise;
+    }
+    .select {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 2px solid #cdc7c7;
+      width: 95%;
+    }
+    .select:focus {
+      border: 2px solid turquoise;
+    }
+    select:focus {
+      border: 2px solid turquoise;
+    }
+    .activity label {
+      font-weight: 700;
+    }
+    .activity select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 2px solid #cdc7c7;
+    }
+    .activity select:focus{
+        border: 2px solid turquoise;
+    }
+    .password label {
+      font-weight: 700;
+    }
+    .password input {
+      width: calc(100% - 24px);
+      padding: 10px;
+      margin-top: 10px;
+      outline: none;
+    }
+    .password input:focus{
+        border: 2px solid turquoise;
+    }
+    .submit{
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        outline: none;
+        background-color: turquoise;
+        color: white;
+        font-size: 16px;
+        border: none;
+    }
+    .bottom{
+        font-size: 12px;
+        text-align: center;
+        padding-block: 7px;
+    }
+    .bottom a{
+        color: turquoise;
+    }
+}
